@@ -1,0 +1,566 @@
+/**
+ * NicheBase Styling
+*/
+
+@media screen and (max-width:1310px) {
+  .header-right-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1270px) {
+  /* NicheBase Normal CSS */
+  .container {
+    padding: 0 10px;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .nibs-no-text-logo .nibs-header-right,
+  .nibs-no-site-tagline .nibs-header-right {
+    min-width: 100%;
+    min-height: 60px;
+  }
+  .nibs-has-text-logo .nibs-header-right,
+  .nibs-has-site-tagline .nibs-header-right {
+    min-height: 0;
+  }
+  .nibs-header .nibs-navigation {
+    display: none !important;
+  }
+  .sticky-wrapper {
+    min-height: 83px;
+  }
+  .nibs-header {
+    padding: 20px 50px;
+    position: relative;
+  }
+  .nibs-header .container {
+    position: relative;
+  }
+  .nibs-brand {
+    padding: 0 !important;
+  }
+  .nibs-header-right {
+    margin-top: 10px;
+    position: static;
+  }
+  .header-links-wrap {
+    margin: 0px 30px 0 0;
+  }
+  .nibs-navigation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 250px;
+    padding: 0 50px 25px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    overflow: auto;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .nibs-navigation > ul {
+    display: block;
+  }
+  .nibs-navigation > ul > li {
+    float: none;
+  }
+  .nibs-navigation > ul > li > a {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 1px solid #dddddd;
+  }
+  .nibs-navigation > ul > li.has-dropdown > a:after,
+  .nibs-navigation > ul > li.active .nav-dots,
+  .dropdown-nav:before {
+    display: none;
+  }
+  .nibs-navigation .dropdown-nav {
+    display: none;
+    position: static;
+    min-width: 100%;
+    padding: 0 0 0 20px;
+    background: transparent;
+    opacity: 1;
+    visibility: visible;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+  }
+  .nibs-navigation .dropdown-nav li a {
+    padding: 12px 0;
+    border-bottom: 1px solid #dddddd;
+  }
+  /* NicheBase News Page CSS */
+  .news-meta [class*="col-"] {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .news-meta .text-right {
+    text-align: left !important;
+  }
+  .nibs-share-link {
+    margin: 0 0 15px;
+  }
+  .nibs-share-link.nibs-hover .nibs-social {
+    left: 45px;
+    padding-left: 4px;
+  }
+  .nibs-share-link .nibs-social {
+    left: 0;
+    right: auto;
+  }
+  .blockquote-style-two {
+    padding: 50px 50px 40px;
+  }
+  .mid-spacer-two {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .nibs-primary {
+    float: none;
+    width: 100%;
+  }
+  .left-sidebar .nibs-primary {
+    float: none;
+  }
+  .nibs-secondary {
+    float: none;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .left-sidebar .nibs-primary {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .left-sidebar .nibs-secondary {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  /* NicheBase 404 Error Page CSS */
+  .nibs-error {
+    padding: 100px 0;
+  }
+  .nibs-error h1 {
+    font-size: 150px;
+    line-height: 160px;
+  }
+}
+
+@media screen and (max-width:782px) {
+  .admin-bar .is-sticky .nibs-header {
+    top: 46px !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .admin-bar .is-sticky .nibs-header {
+    top: 0 !important;
+  }
+}
+
+@media screen and (max-width:767px) {
+  /* NicheBase Normal CSS */
+  h1,
+  .h1 {
+    font-size: 32px;
+  }
+  h2,
+  .h2 {
+    font-size: 28px;
+  }
+  h3,
+  .h3 {
+    font-size: 26px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+  blockquote {
+    padding: 25px 15px;
+    margin: 10px 0 15px;
+    text-align: center;
+  }
+  blockquote:before {
+    padding-bottom: 25px;
+  }
+  blockquote p {
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  blockquote cite {
+    font-size: 16px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="search"],
+  input[type="date"],
+  input[type="time"],
+  input[type="datetime-local"],
+  input[type="event-month"],
+  input[type="url"],
+  input[type="number"],
+  textarea,
+  select,
+  .form-control {
+    height: 45px;
+  }
+  form input,
+  form textarea,
+  form select {
+    margin-bottom: 15px;
+  }
+  textarea,
+  textarea.form-control {
+    height: 120px;
+  }
+  .container {
+    padding: 0 25px;
+  }
+  .nibs-page-title h2 {
+    font-size: 28px;
+  }
+  .nibs-header {
+    padding: 20px 25px;
+  }
+  .nibs-navigation {
+    padding: 0 25px 25px;
+  }
+  .nibs-page-title {
+    padding: 50px 0 40px;
+  }
+  .footer-wrap {
+    padding: 50px 0 10px;
+  }
+  .nibs-logo {
+    padding-bottom: 15px;
+  }
+  .footer-widget {
+    padding-bottom: 15px;
+  }
+  .footer-widget .widget-title {
+    padding-bottom: 8px;
+  }
+  .footer-widget ul {
+    line-height: 30px;
+  }
+  .nibs-copyright {
+    padding: 25px 0 15px;
+    text-align: center;
+  }
+  .nibs-social a {
+    margin: 0 5px 10px;
+  }
+  /* NicheBase 404 Error Page CSS */
+  .nibs-error h1 {
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .nibs-error h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .error-subtitle {
+    padding-bottom: 10px;
+  }
+  .nibs-error p {
+    font-size: 20px;
+  }
+  /* NicheBase News Page CSS */
+  .news-item {
+    margin-bottom: 35px;
+  }
+  .news-info {
+    padding-top: 15px;
+  }
+  .news-meta h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .nibs-share-link {
+    margin-bottom: 5px;
+  }
+  .nibs-share-link > a,
+  .nibs-social.rounded a {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px;
+  }
+  .nibs-share-link.nibs-hover .nibs-social {
+    left: 44px;
+  }
+  .news-info p {
+    padding-bottom: 10px;
+  }
+  .blockquote-style-two {
+    padding: 25px;
+    text-align: center;
+  }
+  .blockquote-style-two:before {
+    position: static;
+    height: 30px;
+    background-size: 35px auto;
+  }
+  .blockquote-style-two p {
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .blockquote-style-two p:first-child:before,
+  .quote-icon::before {
+    display: none;
+  }
+  .blockquote-style-two cite {
+    font-size: 16px;
+  }
+  .pagination-style-two {
+    padding-top: 0;
+    text-align: left;
+  }
+  .nibs-widget .widget-title {
+    padding-bottom: 10px;
+  }
+  .categories-widget .widget-title,
+  .nibs-widget .nav-tabs {
+    padding-bottom: 0;
+  }
+  .nibs-widget.categories-widget {
+    padding-bottom: 15px;
+  }
+  .post-widget ul li {
+    padding-right: 15px;
+  }
+  .post-info {
+    padding-left: 15px;
+  }
+  .post-info h4 {
+    font-size: 16px;
+  }
+  .post-title {
+    padding-bottom: 5px;
+  }
+  .nibs-widget.post-widget {
+    padding-bottom: 0;
+  }
+  .tags-widget a {
+    margin-bottom: 5px;
+  }
+  /* NicheBase News Single Page CSS */
+  .news-detail-wrap {
+    padding: 15px 0 35px;
+  }
+  .news-detail-wrap p {
+    font-size: 16px;
+  }
+  .single-news-meta {
+    padding-top: 15px;
+    margin-top: 5px;
+  }
+  .single-news-meta .pull-left {
+    width: 100%;
+  }
+  .single-news-meta .pull-right {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .single-news-meta .nibs-social a {
+    margin: 0 4px 4px;
+  }
+  .nibs-author-info {
+    padding: 25px;
+  }
+  .author-content .author-name {
+    margin-bottom: 0;
+  }
+  .author-content p {
+    padding-bottom: 10px;
+  }
+  .author-content .nibs-social a {
+    margin: 0 5px 5px;
+  }
+  .nibs-social a {
+    font-size: 15px;
+  }
+  .nibs-comments-area h3 {
+    font-size: 22px;
+  }
+  .post-info h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .nibs-comments-area .comment-body {
+    padding-bottom: 25px;
+  }
+  .nibs-comments-area .nibs-comments-meta {
+    padding-bottom: 0;
+  }
+  .nibs-comments-area .comments li .children li {
+    padding-left: 25px;
+  }
+  .nibs-comments-area .comment-main-area {
+    padding-left: 15px;
+  }
+  .comment-reply-title {
+    padding-bottom: 5px;
+  }
+  .nibs-comment-form .form-submit {
+    padding-top: 0;
+  }
+  /* NicheBase Content Cross Check Page CSS */
+  .nibs-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .nibs-unit-fix .entry-content .comment-list article,
+  .nibs-unit-fix .entry-content .comment-list .pingback,
+  .nibs-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article,
+  .entry-content .comment-list .pingback,
+  .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul,
+  .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .entry-content .comment-notes,
+  .entry-content .comment-awaiting-moderation,
+  .entry-content .logged-in-as,
+  .entry-content .form-allowed-tags {
+    padding-bottom: 10px;
+  }
+  .header-links-wrap {
+    margin: 0px 60px 0 0;
+  }
+  .nibs-mid-wrap {
+    padding: 70px 0 70px;
+  }
+  .mid-spacer-two,
+  .mid-spacer-three {
+    padding-bottom: 70px;
+  }
+  .info-widget {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:599px) {
+  /* NicheBase Normal CSS */
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+  .nibs-text-logo {
+    font-size: 24px;
+  }
+  .nibs-site-tagline {
+    font-size: 14px;
+  }
+  .mean-container .mean-nav {
+    margin-top: 74px;
+  }
+}
+
+@media screen and (max-width:479px) {
+  .nibs-text-logo {
+    font-size: 22px;
+  }
+  .nibs-site-tagline {
+    font-size: 12px;
+  }
+  .nibs-brand {
+    padding: 3px 0 !important;
+  }
+  /* NicheBase Normal CSS */
+  input[type="submit"],
+  button[type="submit"] {
+    width: 100%;
+  }
+  .nibs-page-title h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  /* NicheBase 404 Error Page CSS */
+  .nibs-error h1 {
+    font-size: 80px;
+    line-height: 65px;
+  }
+  .nibs-error h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  /* NicheBase News Single Page CSS */
+  .nibs-author-info {
+    text-align: center;
+  }
+  .author-avatar {
+    float: none;
+  }
+  .author-content {
+    padding: 10px 0 0;
+  }
+  .author-content .nibs-social a {
+    margin: 0 4px 8px;
+  }
+  .nibs-comments-area .comment-image {
+    float: none;
+    padding-top: 0;
+  }
+  .nibs-comments-area .comment-main-area {
+    padding: 10px 0 0;
+  }
+  .nibs-comments-area .comments-reply {
+    position: static;
+    padding: 5px 0;
+  }
+  .nibs-comments-area .comments li .children li {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:359px) {
+  /* NicheBase News Page CSS */
+  .news-meta h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+  /* NicheBase Normal CSS */
+  .nibs-navigation {
+    height: 200px;
+  }
+}
